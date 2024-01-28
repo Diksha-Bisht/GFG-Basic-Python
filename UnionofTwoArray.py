@@ -7,13 +7,16 @@ class Solution:
         set_b=set(b)
         union_set=set_a.union(set_b)
         return (len(union_set))
-        '''merged=a+b
+        '''
+        # Possible Answer 2:
+        merged=a+b
         merged.sort()
         count=1
         for i in range(1,n+m):
             if merged[i]!=merged[i-1]:
                 count+=1
-        return count'''
+        return count
+        '''
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
